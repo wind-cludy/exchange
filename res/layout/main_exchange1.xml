@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  <LinearLayout 
+         android:id="@+id/ll_title"
+         android:layout_width="fill_parent"
+         android:layout_height="40sp">
+  
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="30sp"
+          android:text="外為"
+          android:textSize="20sp"
+          android:gravity="center"
+          android:layout_weight="3"
+        >
+      </TextView>
+      <Button
+          android:id="@+id/title_edit"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Edit"
+        >
+      </Button>
+ </LinearLayout>
+ 
+ <LinearLayout 
+         android:id="@+id/list_all"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_below="@+id/ll_title">
+   <ListView
+          android:id="@+id/lv_exchange"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+   >
+   </ListView>      
+ 
+ </LinearLayout>
+ <GridView
+         android:id="@+id/gv_main"
+         android:layout_width="fill_parent"
+         android:layout_height="60sp"
+         android:layout_alignParentBottom="true"
+         android:visibility="gone"
+    >
+ </GridView>
+
+</RelativeLayout>
+ 

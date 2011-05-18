@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外為FX</string>
+    
+    <string name="menu_currencies">為替</string>
+    <string name="menu_chart">チャート</string>
+    <string name="menu_news">ニュース</string>
+    <string name="menu_setting">設定</string>
+    <string name="menu_about">About</string>
+</resources>

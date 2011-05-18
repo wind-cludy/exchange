@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">外汇</string>
+    
+    <string name="menu_currencies">外汇</string>
+    <string name="menu_chart">图表</string>
+    <string name="menu_news">新闻</string>
+    <string name="menu_setting">设定</string>
+    <string name="menu_about">关于</string>
+</resources>

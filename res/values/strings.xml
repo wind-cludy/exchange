@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Currency</string>
+    
+    <string name="menu_currencies">Currencies</string>
+    <string name="menu_chart">Chart</string>
+    <string name="menu_news">News</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_about">About</string>
+</resources>

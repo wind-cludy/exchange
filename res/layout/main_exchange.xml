@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<LinearLayout android:id="@+id/ll_title"
+	android:layout_width="fill_parent" 
+	android:layout_height="40sp"
+	android:orientation="horizontal">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="30sp" android:text="外為" android:textSize="20sp"
+		android:gravity="center" android:layout_weight="3">
+	</TextView>
+	<Button android:id="@+id/title_edit" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_weight="1"
+		android:text="Edit">
+	</Button>
+</LinearLayout>
+<ListView android:id="@+id/lv_exchange" 
+		  android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_weight="1">
+</ListView>
+<TextView
+		android:id="@+id/update_datetime"  
+		android:layout_width="fill_parent"
+		android:layout_height="20sp" 
+		android:text="" 
+		android:textSize="10sp"
+		android:gravity ="center_vertical|right"
+		android:visibility="gone">
+</TextView>
+<GridView android:id="@+id/gv_main" 
+	android:layout_width="fill_parent"
+	android:layout_height="60dip" 
+	android:layout_alignParentBottom="true">
+</GridView>
+</LinearLayout>
+ 
