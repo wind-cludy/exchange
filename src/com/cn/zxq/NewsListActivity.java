@@ -53,12 +53,13 @@ public class NewsListActivity extends Activity {
 		ll_news_head = (LinearLayout) findViewById(R.id.news_head_ll);
 		ll_news_head.setBackgroundResource(R.drawable.channelgallery_bg);
 		lv_news_list = (ListView) findViewById(R.id.news_list_ll);
-		List<String> lists = getData();
-		if(lists!=null &&lists.size()>0 ) {
-			lists.remove(0);
-			Collections.sort(lists);
-			
-		}//loadListData();
+//		List<String> lists = getData();
+//		if(lists!=null &&lists.size()>0 ) {
+//			lists.remove(0);
+//			Collections.sort(lists);
+//			
+//		}
+		loadListData();
 	}
 	
 	private void loadListData() {
